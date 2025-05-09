@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/InvitationAPI/static/css/main.c4219981.css",
+    "main.js": "/InvitationAPI/static/js/main.cf53020f.js",
+    "index.html": "/InvitationAPI/index.html",
+    "main.c4219981.css.map": "/InvitationAPI/static/css/main.c4219981.css.map",
+    "main.cf53020f.js.map": "/InvitationAPI/static/js/main.cf53020f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4219981.css",
+    "static/js/main.cf53020f.js"
+  ]
+}
