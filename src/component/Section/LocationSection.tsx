@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  Map,
-  MapMarker,
-  MapTypeControl,
-  ZoomControl,
-} from "react-kakao-maps-sdk";
 import ContentTitle from "../common/ContentTitle";
 import Layout from "../common/Layout";
 import LocationItem from "../Items/LocationItem";

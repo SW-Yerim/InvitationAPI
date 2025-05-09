@@ -16,7 +16,7 @@ const ButtonLayout: React.FC<Props> = ({ openModal, text, icon }) => {
         {icon && (
           <img
             className="inline w-4 mr-2 opacity-70"
-            src={`/icons/${icon}.svg`}
+            src={`${process.env.PUBLIC_URL}/icons/${icon}.svg`}
             alt="아이콘 이미지"
           />
         )}

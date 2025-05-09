@@ -20,8 +20,8 @@ const NoticeModal: React.FC<Props> = ({ type, message, closeError }) => {
       <div className="mb-6 text-xl text-center">
         {type === "error" && (
           <img
+            src={`${process.env.PUBLIC_URL}/icons/notice.svg`}
             className="inline w-12"
-            src="/icons/notice.svg"
             alt="주의 아이콘"
           />
         )}

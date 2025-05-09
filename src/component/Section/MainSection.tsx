@@ -40,7 +40,7 @@ const MainSection: React.FC<Props> = ({ brideAndGroom, dateData }) => (
         <p>{dateData.day1}</p>
       </div>
       <img
-        src="/images/wedding-cover.jpg"
+        src={`${process.env.PUBLIC_URL}/images/wedding-cover.jpg`}
         alt="wedding cover"
         className="w-full max-w-lg mx-auto max-h-[33rem] object-cover object-center"
       />

@@ -14,7 +14,10 @@ const ModalLayout: React.FC<Props> = ({ children, closeModal }) => {
           onClick={closeModal}
           className="absolute top-0 right-0 p-4 text-white"
         >
-          <img src="/icons/close.svg" alt="닫기 아이콘" />
+          <img
+            src={`${process.env.PUBLIC_URL}/icons/close.svg`}
+            alt="닫기 아이콘"
+          />
         </button>
 
         {/* 모달 컨텐츠 영역 */}

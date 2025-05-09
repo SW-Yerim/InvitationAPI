@@ -6,7 +6,11 @@ const LocationItem = () => {
       <ul className="max-w-[20rem] lg:w-full lg:max-w-md mx-auto text-left">
         <li className="flex gap-4 mb-4">
           <div className="w-10 h-10 bg-quasi-brown2 rounded-3xl">
-            <img className="p-2" src="/icons/tram.svg" alt="지하철 아이콘" />
+            <img
+              src={`${process.env.PUBLIC_URL}/icons/tram.svg`}
+              className="p-2"
+              alt="지하철 아이콘"
+            />
           </div>
           <div>
             <h2 className="mb-1 font-bold">지하철</h2>
@@ -15,7 +19,11 @@ const LocationItem = () => {
         </li>
         <li className="flex gap-4 mb-4">
           <div className="w-10 h-10 bg-quasi-brown2 rounded-3xl">
-            <img className="p-2" src="/icons/bus.svg" alt="버스 아이콘" />
+            <img
+              src={`${process.env.PUBLIC_URL}/icons/bus.svg`}
+              className="p-2"
+              alt="버스 아이콘"
+            />
           </div>
           <div>
             <h2 className="mb-1 font-bold">버스</h2>
@@ -30,7 +38,11 @@ const LocationItem = () => {
         </li>
         <li className="flex gap-4 mb-4">
           <div className="w-10 h-10 bg-quasi-brown2 rounded-3xl">
-            <img className="p-2" src="/icons/car.svg" alt="자동차 아이콘" />
+            <img
+              src={`${process.env.PUBLIC_URL}/icons/car.svg`}
+              className="p-2"
+              alt="자동차 아이콘"
+            />
           </div>
           <div>
             <h2 className="mb-1 font-bold">자가용</h2>

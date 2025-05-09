@@ -1,5 +1,4 @@
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import React, { useState } from "react";
 
 interface Props {
   color: string;
@@ -28,19 +27,27 @@ const FamilyItem: React.FC<Props> = ({ color, index, member }) => {
         <ul className="flex gap-5 justify-center">
           <li className="cursor-pointer">
             <a href={`tel:${member.phone}`}>
-              <img className="w-4" src="/icons/phone.svg" alt="수화기 아이콘" />
+              <img
+                src={`${process.env.PUBLIC_URL}/icons/phone.svg`}
+                className="w-4"
+                alt="수화기 아이콘"
+              />
             </a>
           </li>
           <li className="cursor-pointer">
             <a href={`sms:${member.phone}`}>
-              <img className="w-4" src="/icons/mail.svg" alt="메세지 아이콘" />
+              <img
+                src={`${process.env.PUBLIC_URL}/icons/mail.svg`}
+                className="w-4"
+                alt="메세지 아이콘"
+              />
             </a>
           </li>
           <li className="cursor-pointer">
             <CopyToClipboard text={member.bank}>
               <img
+                src={`${process.env.PUBLIC_URL}/icons/credit-card.svg`}
                 className="w-4"
-                src="/icons/credit-card.svg"
                 alt="계좌 아이콘"
               />
             </CopyToClipboard>

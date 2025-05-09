@@ -1,15 +1,10 @@
-import React from "react";
-import {
-  collection,
-  addDoc,
-  getDocs,
-} from "firebase/firestore";
+import { collection, addDoc, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
 // 방명록 메시지 추가
 export const addMessage = async (name: string, message: string) => {
   try {
-    const docRef = await addDoc(collection(db, "guestbook"), {
+    await addDoc(collection(db, "guestbook"), {
       name,
       message,
       createdAt: new Date(),
@@ -24,7 +19,7 @@ export const getMessages = async () => {
   const querySnapshot = await getDocs(collection(db, "guestbook"));
 
   const messages = querySnapshot.docs.map((doc) => ({
-    id: doc.id, 
+    id: doc.id,
     ...doc.data(),
   }));
 

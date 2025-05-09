@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ContentTitle from "../common/ContentTitle";
 import GallarySlider from "../Items/GallarySlider";
 import Layout from "../common/Layout";
-import ModalLayout from "../common/ModalLayout";
 import GalleryModal from "../Modal/GalleryModal";
 
 const GallerySection: React.FC = () => {

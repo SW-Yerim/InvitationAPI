@@ -15,3 +15,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "Adelio";
+  src: url("../public/fonts/AdelioDarmanto.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Apple";
+  src: url("../public/fonts/AppleSDGothicNeoR.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font1";
+  src: url("../public/fonts/나눔손글씨 바른히피.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font2";
+  src: url("../public/fonts/나눔손글씨 사랑해 아들.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font3";
+  src: url("../public/fonts/나눔손글씨 왼손잡이도 예뻐.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font4";
+  src: url("../public/fonts/나눔손글씨 잘하고 있어.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font5";
+  src: url("../public/fonts/나눔손글씨 힘내라는 말보단.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}

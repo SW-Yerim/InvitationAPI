@@ -9,7 +9,7 @@ const GalleryModal: React.FC<Props> = ({ closeModal, selectedImage }) => {
   return (
     <ModalLayout closeModal={closeModal}>
       <img
-        src={selectedImage}
+        src={`${process.env.PUBLIC_URL}/${selectedImage}`}
         alt="선택된 이미지"
         className="max-w-full max-h-full"
       />

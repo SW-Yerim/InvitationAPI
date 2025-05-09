@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import ContentTitle from "../common/ContentTitle";
 import Layout from "../common/Layout";
-import ModalLayout from "../common/ModalLayout";
 import ButtonLayout from "../common/ButtonLayout";
-import FamilyItem from "../Items/FamilyItem";
 import ContactModal from "../Modal/ContactModal";
 import FamilyInfo from "../Items/FamilyInfo";
 
@@ -52,7 +50,7 @@ const InvitationSection: React.FC<Props> = ({ members }) => {
         </div>
 
         <img
-          src="/images/image10.jpg"
+          src={`${process.env.PUBLIC_URL}/images/image10.jpg`}
           alt="wedding cover"
           className="w-full max-w-sm mx-auto mb-8 h-full max-h-64 object-cover object-center"
         />

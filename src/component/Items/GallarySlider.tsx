@@ -57,7 +57,7 @@ const GallarySlider: React.FC<Props> = ({ openModal }) => {
         {images.map((image, index) => (
           <SwiperSlide key={index}>
             <img
-              src={image.url}
+              src={`${process.env.PUBLIC_URL}/${image.url}`}
               alt={`Main ${index + 1} 이미지`}
               className="w-full h-[400px] object-contain object-center rounded-xl
               lg:h-[700px]"
@@ -79,7 +79,7 @@ const GallarySlider: React.FC<Props> = ({ openModal }) => {
         {images.map((image, index) => (
           <SwiperSlide key={index}>
             <img
-              src={image.url}
+              src={`${process.env.PUBLIC_URL}/${image.url}`}
               alt={`Thumb ${index + 1} 이미지`}
               className="w-full bject-contain object-center cursor-pointer"
               style={{ objectPosition: "50% 20%" }}
