@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/InvitationAPI/static/css/main.c4219981.css",
-    "main.js": "/InvitationAPI/static/js/main.cf53020f.js",
+    "main.css": "/InvitationAPI/static/css/main.a710c52b.css",
+    "main.js": "/InvitationAPI/static/js/main.ac56f402.js",
+    "static/media/나눔손글씨 잘하고 있어.ttf": "/InvitationAPI/static/media/나눔손글씨 잘하고 있어.5031cbc19dc8c53ac6aa.ttf",
+    "static/media/나눔손글씨 바른히피.ttf": "/InvitationAPI/static/media/나눔손글씨 바른히피.de38da4b2e8aee7fc5a1.ttf",
+    "static/media/나눔손글씨 사랑해 아들.ttf": "/InvitationAPI/static/media/나눔손글씨 사랑해 아들.8ecd7081affe2079735a.ttf",
+    "static/media/나눔손글씨 힘내라는 말보단.ttf": "/InvitationAPI/static/media/나눔손글씨 힘내라는 말보단.8b26299df0367b210311.ttf",
+    "static/media/나눔손글씨 왼손잡이도 예뻐.ttf": "/InvitationAPI/static/media/나눔손글씨 왼손잡이도 예뻐.a5caec1e2d5944c50839.ttf",
+    "static/media/AppleSDGothicNeoR.ttf": "/InvitationAPI/static/media/AppleSDGothicNeoR.d159b4d4ce2ef2592daa.ttf",
+    "static/media/AdelioDarmanto.otf": "/InvitationAPI/static/media/AdelioDarmanto.2765126e2a11367eee66.otf",
     "index.html": "/InvitationAPI/index.html",
-    "main.c4219981.css.map": "/InvitationAPI/static/css/main.c4219981.css.map",
-    "main.cf53020f.js.map": "/InvitationAPI/static/js/main.cf53020f.js.map"
+    "main.a710c52b.css.map": "/InvitationAPI/static/css/main.a710c52b.css.map",
+    "main.ac56f402.js.map": "/InvitationAPI/static/js/main.ac56f402.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4219981.css",
-    "static/js/main.cf53020f.js"
+    "static/css/main.a710c52b.css",
+    "static/js/main.ac56f402.js"
   ]
 }
